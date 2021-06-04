@@ -1,0 +1,10 @@
+## server configuration
+server:
+  port: 8088
+## spring configuration
+spring:
+  application:
+    name: com-cloud-skd
+logging:
+  level:
+    root: info
