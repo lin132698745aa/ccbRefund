@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ccb.cloud.sdk</groupId>
-    <artifactId>ccb-pay</artifactId>
+    <artifactId>ccbRefund</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -43,18 +43,24 @@
             <groupId>org.bouncycastle</groupId>
             <artifactId>WLPTSoftSign</artifactId>
             <version>1.45.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/WLPTSoftSign.jar</systemPath>
         </dependency>
 
         <dependency>
             <groupId>com.ccb.wlpt</groupId>
             <artifactId>CCBWLPTSdk-1.5.7-20201013</artifactId>
             <version>1.8.3</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/CCBWLPTSdk-1.5.7-20201013.jar</systemPath>
         </dependency>
 
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk14-145</artifactId>
             <version>1.45.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/bcprov-jdk14-145.jar</systemPath>
         </dependency>
 
     </dependencies>

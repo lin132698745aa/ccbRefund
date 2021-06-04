@@ -1,5 +1,0 @@
-server:
-  port: 9099
-spring:
-  profiles:
-    active: dev

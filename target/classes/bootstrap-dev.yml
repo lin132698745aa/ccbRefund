@@ -1,8 +1,0 @@
-## server configuration
-server:
-  port: 9099
-## spring configuration
-spring:
-  application:
-    name: com-cloud-skd
-    company: 建设银行
