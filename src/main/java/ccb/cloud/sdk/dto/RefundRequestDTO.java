@@ -1,6 +1,8 @@
 package ccb.cloud.sdk.dto;
 
 public class RefundRequestDTO {
+    private String requestSn;
+
     private String merchantId;
 
     private String custId;
@@ -120,4 +122,8 @@ public class RefundRequestDTO {
     public void setPayRecordNo(String payRecordNo) {
         this.payRecordNo = payRecordNo;
     }
+
+    public String getRequestSn() { return requestSn; }
+
+    public void setRequestSn(String requestSn) { this.requestSn = requestSn; }
 }

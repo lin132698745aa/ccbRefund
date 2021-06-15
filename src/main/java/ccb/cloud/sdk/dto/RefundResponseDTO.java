@@ -1,6 +1,5 @@
 package ccb.cloud.sdk.dto;
 
-
 public class RefundResponseDTO {
     private String RETURN_CODE;
 
