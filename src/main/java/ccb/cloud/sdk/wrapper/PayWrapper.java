@@ -41,6 +41,9 @@ public class PayWrapper {
             String payRecordNo = requestDTO.getPayRecordNo();
             String refundNo = requestDTO.getRefundNo();
             String requestSn = requestDTO.getRequestSn();
+            if (refundNo == null || refundNo.isEmpty()) {
+                refundNo = requestSn;
+            }
             String url = requestDTO.getUrl();
             String initCert = RequestProcess.initFileCert(merchantId, custId, certFile, certPassword, configFile);
             System.out.println(initCert);
